@@ -54,8 +54,8 @@
     .right {
       flex: 1;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100%;
   
       .imgContainer {
@@ -80,7 +80,7 @@
           .bg {
             background-image: url("/bg.png");
             opacity: 0.2;
-            width: 200%;
+            width: 160%;
             height: 100%;
             background-size: auto 100%;
             animation: 8s ease-in-out infinite alternate slideBg;

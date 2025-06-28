@@ -4,7 +4,7 @@ import { SignIn } from '@clerk/clerk-react'
 
 const signinpage = () => {
   return (
-    <div className='signinpage'><SignIn path="/sign-in" /></div>
+    <div className='signinpage'><SignIn path="/sign-in" forceRedirectUrl="/dashboard" /></div>
   )
 }
 
