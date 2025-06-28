@@ -1,0 +1,11 @@
+.signuppage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signuppage h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
